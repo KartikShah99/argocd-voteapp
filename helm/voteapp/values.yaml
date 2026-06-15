@@ -1,0 +1,11 @@
+api:
+  image: kartikshah99/voteapp:v1
+  replicas: 2
+  port: 5000
+
+redis:
+  image: redis:7-alpine
+  port: 6379
+
+ingress:
+  host: 13.203.59.255.nip.io
