@@ -1,5 +1,5 @@
 api:
-  image: kartikshah99/voteapp:v1
+  image: kartikshah99/voteapp:d151ea9
   replicas: 2
   port: 5000
 
